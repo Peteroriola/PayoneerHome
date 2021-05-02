@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		426C2CA5263EEC8700641476 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C2CA4263EEC8700641476 /* AppDelegate.swift */; };
+		426C2CA7263EEC8700641476 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C2CA6263EEC8700641476 /* SceneDelegate.swift */; };
+		426C2CA9263EEC8700641476 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C2CA8263EEC8700641476 /* ViewController.swift */; };
+		426C2CAC263EEC8700641476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426C2CAA263EEC8700641476 /* Main.storyboard */; };
+		426C2CAE263EEC8A00641476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426C2CAD263EEC8A00641476 /* Assets.xcassets */; };
+		426C2CB1263EEC8A00641476 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426C2CAF263EEC8A00641476 /* LaunchScreen.storyboard */; };
+		426C2CBC263EEC8B00641476 /* PayoneerHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C2CBB263EEC8B00641476 /* PayoneerHomeTests.swift */; };
+		426C2CC7263EEC8B00641476 /* PayoneerHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C2CC6263EEC8B00641476 /* PayoneerHomeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		426C2CB8263EEC8A00641476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 426C2C99263EEC8700641476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 426C2CA0263EEC8700641476;
+			remoteInfo = PayoneerHome;
+		};
+		426C2CC3263EEC8B00641476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 426C2C99263EEC8700641476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 426C2CA0263EEC8700641476;
+			remoteInfo = PayoneerHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		426C2CA1263EEC8700641476 /* PayoneerHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayoneerHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		426C2CA4263EEC8700641476 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		426C2CA6263EEC8700641476 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		426C2CA8263EEC8700641476 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		426C2CAB263EEC8700641476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		426C2CAD263EEC8A00641476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		426C2CB0263EEC8A00641476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		426C2CB2263EEC8A00641476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		426C2CB7263EEC8A00641476 /* PayoneerHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayoneerHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		426C2CBB263EEC8B00641476 /* PayoneerHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayoneerHomeTests.swift; sourceTree = "<group>"; };
+		426C2CBD263EEC8B00641476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		426C2CC2263EEC8B00641476 /* PayoneerHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayoneerHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		426C2CC6263EEC8B00641476 /* PayoneerHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayoneerHomeUITests.swift; sourceTree = "<group>"; };
+		426C2CC8263EEC8B00641476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		426C2C9E263EEC8700641476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426C2CB4263EEC8A00641476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426C2CBF263EEC8B00641476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		426C2C98263EEC8700641476 = {
+			isa = PBXGroup;
+			children = (
+				426C2CA3263EEC8700641476 /* PayoneerHome */,
+				426C2CBA263EEC8B00641476 /* PayoneerHomeTests */,
+				426C2CC5263EEC8B00641476 /* PayoneerHomeUITests */,
+				426C2CA2263EEC8700641476 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		426C2CA2263EEC8700641476 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				426C2CA1263EEC8700641476 /* PayoneerHome.app */,
+				426C2CB7263EEC8A00641476 /* PayoneerHomeTests.xctest */,
+				426C2CC2263EEC8B00641476 /* PayoneerHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		426C2CA3263EEC8700641476 /* PayoneerHome */ = {
+			isa = PBXGroup;
+			children = (
+				426C2CA4263EEC8700641476 /* AppDelegate.swift */,
+				426C2CA6263EEC8700641476 /* SceneDelegate.swift */,
+				426C2CA8263EEC8700641476 /* ViewController.swift */,
+				426C2CAA263EEC8700641476 /* Main.storyboard */,
+				426C2CAD263EEC8A00641476 /* Assets.xcassets */,
+				426C2CAF263EEC8A00641476 /* LaunchScreen.storyboard */,
+				426C2CB2263EEC8A00641476 /* Info.plist */,
+			);
+			path = PayoneerHome;
+			sourceTree = "<group>";
+		};
+		426C2CBA263EEC8B00641476 /* PayoneerHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				426C2CBB263EEC8B00641476 /* PayoneerHomeTests.swift */,
+				426C2CBD263EEC8B00641476 /* Info.plist */,
+			);
+			path = PayoneerHomeTests;
+			sourceTree = "<group>";
+		};
+		426C2CC5263EEC8B00641476 /* PayoneerHomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				426C2CC6263EEC8B00641476 /* PayoneerHomeUITests.swift */,
+				426C2CC8263EEC8B00641476 /* Info.plist */,
+			);
+			path = PayoneerHomeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		426C2CA0263EEC8700641476 /* PayoneerHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426C2CCB263EEC8B00641476 /* Build configuration list for PBXNativeTarget "PayoneerHome" */;
+			buildPhases = (
+				426C2C9D263EEC8700641476 /* Sources */,
+				426C2C9E263EEC8700641476 /* Frameworks */,
+				426C2C9F263EEC8700641476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayoneerHome;
+			productName = PayoneerHome;
+			productReference = 426C2CA1263EEC8700641476 /* PayoneerHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		426C2CB6263EEC8A00641476 /* PayoneerHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426C2CCE263EEC8B00641476 /* Build configuration list for PBXNativeTarget "PayoneerHomeTests" */;
+			buildPhases = (
+				426C2CB3263EEC8A00641476 /* Sources */,
+				426C2CB4263EEC8A00641476 /* Frameworks */,
+				426C2CB5263EEC8A00641476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				426C2CB9263EEC8A00641476 /* PBXTargetDependency */,
+			);
+			name = PayoneerHomeTests;
+			productName = PayoneerHomeTests;
+			productReference = 426C2CB7263EEC8A00641476 /* PayoneerHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		426C2CC1263EEC8B00641476 /* PayoneerHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426C2CD1263EEC8B00641476 /* Build configuration list for PBXNativeTarget "PayoneerHomeUITests" */;
+			buildPhases = (
+				426C2CBE263EEC8B00641476 /* Sources */,
+				426C2CBF263EEC8B00641476 /* Frameworks */,
+				426C2CC0263EEC8B00641476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				426C2CC4263EEC8B00641476 /* PBXTargetDependency */,
+			);
+			name = PayoneerHomeUITests;
+			productName = PayoneerHomeUITests;
+			productReference = 426C2CC2263EEC8B00641476 /* PayoneerHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		426C2C99263EEC8700641476 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					426C2CA0263EEC8700641476 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					426C2CB6263EEC8A00641476 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 426C2CA0263EEC8700641476;
+					};
+					426C2CC1263EEC8B00641476 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 426C2CA0263EEC8700641476;
+					};
+				};
+			};
+			buildConfigurationList = 426C2C9C263EEC8700641476 /* Build configuration list for PBXProject "PayoneerHome" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 426C2C98263EEC8700641476;
+			productRefGroup = 426C2CA2263EEC8700641476 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				426C2CA0263EEC8700641476 /* PayoneerHome */,
+				426C2CB6263EEC8A00641476 /* PayoneerHomeTests */,
+				426C2CC1263EEC8B00641476 /* PayoneerHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		426C2C9F263EEC8700641476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426C2CB1263EEC8A00641476 /* LaunchScreen.storyboard in Resources */,
+				426C2CAE263EEC8A00641476 /* Assets.xcassets in Resources */,
+				426C2CAC263EEC8700641476 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426C2CB5263EEC8A00641476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426C2CC0263EEC8B00641476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		426C2C9D263EEC8700641476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426C2CA9263EEC8700641476 /* ViewController.swift in Sources */,
+				426C2CA5263EEC8700641476 /* AppDelegate.swift in Sources */,
+				426C2CA7263EEC8700641476 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426C2CB3263EEC8A00641476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426C2CBC263EEC8B00641476 /* PayoneerHomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426C2CBE263EEC8B00641476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426C2CC7263EEC8B00641476 /* PayoneerHomeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		426C2CB9263EEC8A00641476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 426C2CA0263EEC8700641476 /* PayoneerHome */;
+			targetProxy = 426C2CB8263EEC8A00641476 /* PBXContainerItemProxy */;
+		};
+		426C2CC4263EEC8B00641476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 426C2CA0263EEC8700641476 /* PayoneerHome */;
+			targetProxy = 426C2CC3263EEC8B00641476 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		426C2CAA263EEC8700641476 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				426C2CAB263EEC8700641476 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		426C2CAF263EEC8A00641476 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				426C2CB0263EEC8A00641476 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		426C2CC9263EEC8B00641476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		426C2CCA263EEC8B00641476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		426C2CCC263EEC8B00641476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayoneerHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.peter.PayoneerHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		426C2CCD263EEC8B00641476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayoneerHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.peter.PayoneerHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		426C2CCF263EEC8B00641476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayoneerHomeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.peter.PayoneerHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayoneerHome.app/PayoneerHome";
+			};
+			name = Debug;
+		};
+		426C2CD0263EEC8B00641476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayoneerHomeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.peter.PayoneerHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayoneerHome.app/PayoneerHome";
+			};
+			name = Release;
+		};
+		426C2CD2263EEC8B00641476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayoneerHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.peter.PayoneerHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PayoneerHome;
+			};
+			name = Debug;
+		};
+		426C2CD3263EEC8B00641476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayoneerHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.peter.PayoneerHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PayoneerHome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		426C2C9C263EEC8700641476 /* Build configuration list for PBXProject "PayoneerHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426C2CC9263EEC8B00641476 /* Debug */,
+				426C2CCA263EEC8B00641476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		426C2CCB263EEC8B00641476 /* Build configuration list for PBXNativeTarget "PayoneerHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426C2CCC263EEC8B00641476 /* Debug */,
+				426C2CCD263EEC8B00641476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		426C2CCE263EEC8B00641476 /* Build configuration list for PBXNativeTarget "PayoneerHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426C2CCF263EEC8B00641476 /* Debug */,
+				426C2CD0263EEC8B00641476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		426C2CD1263EEC8B00641476 /* Build configuration list for PBXNativeTarget "PayoneerHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426C2CD2263EEC8B00641476 /* Debug */,
+				426C2CD3263EEC8B00641476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 426C2C99263EEC8700641476 /* Project object */;
+}
